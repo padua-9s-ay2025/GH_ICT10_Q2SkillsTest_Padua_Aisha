@@ -1,0 +1,107 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/088/550/177/small/molecules-chemical-periodic-table-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    color: #EFE6D5;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+h2, h3 {
+    color: #EFE6D5;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.col-md-8 {
+    background-color: rgba(29, 71, 142, 0.92); 
+    backdrop-filter: blur(8px);
+    color: #ffffff; 
+    padding: 30px;
+    border-radius: 14px;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), 
+                inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(239, 230, 213, 0.2);
+}
+
+label {
+    color: #EFE6D5;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 14px 18px;  
+    border: 2px solid rgba(239, 230, 213, 0.8);
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffffff;
+    color: #1d478e;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: all 0.25s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #EFE6D5;
+    box-shadow: 0 0 0 4px rgba(239, 230, 213, 0.3);
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 16px;
+    background-color: #EFE6D5;
+    color: #1d478e;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="button"]:hover {
+    background-color: #ffffff;
+    color: #153469;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.28);
+}
+
+input[type="button"]:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+    background: rgba(0, 0, 0, 0.25);
+    border-left: 4px solid #EFE6D5;
+    padding: 16px;
+    border-radius: 6px;
+    color: #EFE6D5;
+    font-family: "Fira Code", monospace;
+    font-size: 15px;
+    min-height: 48px;
+    word-break: break-word;
+}
